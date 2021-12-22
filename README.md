@@ -34,7 +34,7 @@ O Banco de Dados Final, obtido através do SSMS(SQL Server Management Studio), f
 
 ### Quantidade de Eventos por Tipo de Bicicleta:
 
-### Observações
+#### Observações
 
 ### Tempo de Utilização (Duração) Por Dia da Semana e Por Tipo de Usuário
 
