@@ -3,7 +3,7 @@
 Google Data Analytics - Case Study
 
 ## Cenário: 
-Analisar o banco de dados de uma empresa de compartilhamento de bicicletas situada em Chicago / USA, que atualmente possui 5.824 bicicletas, em 692 estações distribuidas pela cidade.
+Analisar o banco de dados de uma empresa de compartilhamento de bicicletas situada em Chicago/IL, que contava com uma frota de 5.824 bicicletas, em 692 estações distribuidas pela cidade na época a ser analisada.
 
 A Empresa tem três planos de preços: Single-Ride, Full-Day, e Annual Membership, onde os usuários Single-ride e Full-day são chamados de Usuários Casuais (Casual) e os Annual Membership como Usuários Membros (Member).
 
@@ -12,10 +12,11 @@ A Empresa também disponibiliza três tipos de bicicletas: Reclining Bike, Hand 
 ## Objetivo do Projeto:
 Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membros.
 
-## Fonte de Dados:
+## Preparação da Fonte de Dados:
 - Dados publicos: Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) - [**Ver Licença**](https://www.divvybikes.com/data-license-agreement)
 - Período Analisado: Novembro/2020 à Outubro/2021
 - Arquivos fonte em formato .csv
+- Abrindo e visualizando os arquivos para observar como se apresentam e o que será necessário para processar os dados.
 - Arquivos salvos em formato .xls (Arquivos .xls são consideravelmente menores do que arquivos .csv, o que facilita a importação para sistemas de Bancos de Dados com licenças gratuitas de utilização)
 - Arquivos Importados para o Banco de Dados SQL Server Management Studio.
 
