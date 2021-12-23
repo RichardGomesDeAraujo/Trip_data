@@ -3,20 +3,21 @@
 Google Data Analytics - Case Study
 
 ## Cenário: 
-Analisar o banco de dados de uma empresa de compartilhamento de bicicletas situada na cidade de Nova York.
+Analisar o banco de dados de uma empresa de compartilhamento de bicicletas situada em Chicago / USA, que atualmente possui 5.824 bicicletas, em 692 estações distribuidas pela cidade.
 
-A empresa possui dois tipos de usuarios: 
+A Empresa tem três planos de preços: Single-Ride, Full-Day, e Annual Membership, onde os usuários Single-ride e Full-day são chamados de Usuários Casuais (Casual) e os Annual Membership como Usuários Membros (Member).
 
-- Usuários Casuais
-- Usuários Membros
+A Empresa também disponibiliza três tipos de bicicletas: Reclining Bike, Hand Tricycles, e Cargo Bikes para transformar o compartilhamento mais inclusivo à pessoas com necessidades especiais ou pessoas que não podem utilizar uma bicicleta comum com duas rodas.
 
 ## Objetivo do Projeto:
 Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membros.
 
 ## Fonte de Dados:
 - Dados publicos: Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) - [**Ver Licença**](https://www.divvybikes.com/data-license-agreement)
-- Período Analisado: Novembro/2020 à Outubro/2021 
-- Tabelas Importadas para o Banco de Dados SQL Server com extensão .xls
+- Período Analisado: Novembro/2020 à Outubro/2021
+- Arquivos fonte em formato .csv
+- Arquivos salvos em formato .xls (Arquivos .xls são consideravelmente menores do que arquivos .csv, o que facilita a importação para sistemas de Bancos de Dados com licenças gratuitas de utilização)
+- Arquivos Importados para o Banco de Dados SQL Server Management Studio.
 
 ## Processando, Limpando e Transformando os Dados:
 - Utilizado o SQL Server Management Studio para unir todas as tabelas e criar um único Dataset através dessa query
