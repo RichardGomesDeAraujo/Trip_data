@@ -16,7 +16,7 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 - Dados publicos: Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) - [**Ver Licença**](https://www.divvybikes.com/data-license-agreement)
 - Período Analisado: Novembro/2020 à Outubro/2021
 - Arquivos fonte em formato .csv
-- Abrindo e visualizando os arquivos para observar como se apresentam e o que será necessário para processar os dados.
+- Abrindo e visualizando os arquivos para observar como se apresentam, como estão organizados, se apresentam erros ou outros problemas.
 - Arquivos salvos em formato .xls (Arquivos .xls são consideravelmente menores do que arquivos .csv, o que facilita a importação para sistemas de Bancos de Dados com licenças gratuitas de utilização)
 - Arquivos Importados para o Banco de Dados SQL Server Management Studio.
 
