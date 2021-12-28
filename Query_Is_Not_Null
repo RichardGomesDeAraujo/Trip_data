@@ -1,0 +1,15 @@
+CREATE VIEW vw_isnotnull AS
+SELECT 
+ride_id, 
+rideable_type, 
+started_at AS started, 
+ended_at AS ended, 
+start_station_name,
+end_station_name,
+member_casual
+FROM vw_unionall
+WHERE
+started_at IS NOT NULL AND
+ended_at IS NOT NULL AND
+start_station_name IS NOT NULL AND
+end_station_name IS NOT NULL
