@@ -22,7 +22,7 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 ## Processando, Limpando e Transformando os Dados:
 - Utilizado o SQL Server Management Studio para unir todas as tabelas e criar um único Dataset através dessa [**query**](Query_Union_ALL)
 - O número total de linhas a serem preparadas para análise é de 5.479.096
-- Query para retirar valores nulos, 
+- [**Query**](Query_Is_Not_Null) para retirar valores nulos, 
 - Query para retirar duração de uso zerada e com duração de uso negativa
 - Query para retirar valores duplicados
 
