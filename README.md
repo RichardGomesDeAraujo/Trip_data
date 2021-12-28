@@ -17,12 +17,11 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 - Período Analisado: Dezembro/2020 à Novembro/2021
 - Arquivos fonte em formato .csv
 - Abrindo e visualizando os arquivos para observar como se apresentam, como estão organizados, se apresentam erros ou outros problemas.
-- Arquivos salvos em formato .xls (Arquivos .xls são consideravelmente menores do que arquivos .csv, o que facilita a importação para sistemas de Bancos de Dados com licenças gratuitas de utilização)
 - Arquivos Importados para o Banco de Dados SQL Server Management Studio.
 
 ## Processando, Limpando e Transformando os Dados:
 - Utilizado o SQL Server Management Studio para unir todas as tabelas e criar um único Dataset através dessa query
-- Número total de linhas
+- O número total de linhas a serem preparadas para análise é de 5.479.096
 - Query para retirar valores nulos, 
 - Query para retirar duração de uso zerada e com duração de uso negativa
 - Query para retirar valores duplicados
