@@ -20,12 +20,11 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 - Arquivos Importados para o Banco de Dados SQL Server Management Studio.
 
 ## Processando, Limpando e Transformando os Dados:
+- Query para criar uma coluna calculada de tempo de utilização das bicicletas
 - Utilizado o SQL Server Management Studio para unir todas as tabelas e criar um único Dataset através dessa [**query**](Query_Union_ALL)
-- O número total de linhas a serem preparadas para análise é de 5.479.096
-- [**Query**](Query_Is_Not_Null) para retirar valores nulos
-- Query para criar uma coluna calculada de tempo de utilização das bicicletas 
-- Query para retirar duração de uso zerada e com duração de uso negativa
-- Query para retirar valores duplicados
+- O número total de registros(linhas) a serem preparadas para análise é de 5.479.096
+- [**Query**](Query_Is_Not_Null) para retirar valores nulos, tempo de duração negativo ou zerado e id's duplicados
+- Total de registros a serem analizadas após o tratamento dos dados ficou em 4.491.263 (81,97% dos registros totais)
 
 ## Visualização de Dados:
 O Banco de Dados Final, obtido através do SSMS(SQL Server Management Studio), ficou com um total de   linhas, e foi importado para o Microsoft PowerBi, com a intenção de desenvolver os gráficos e realizar as análises.
