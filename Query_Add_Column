@@ -1,0 +1,13 @@
+--Criar uma coluna calculada para análises de tempo de duração de uso por tipo de usuário
+ALTER TABLE [202012] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202101] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202102] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202103] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202104] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202105] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202106] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202107] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202108] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202109] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202110] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
+ALTER TABLE [202111] ADD ride_length AS DATEDIFF(SECOND,started_at,ended_at)
