@@ -16,14 +16,14 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 - Dados publicos: Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) - [**Ver Licença**](https://www.divvybikes.com/data-license-agreement)
 - Período Analisado: Dezembro/2020 à Novembro/2021
 - Arquivos fonte em formato .csv
-- Abrindo e visualizando os arquivos para observar como se apresentam, como estão organizados, se apresentam erros ou outros problemas.
-- Arquivos Importados para o Banco de Dados SQL Server Management Studio.
+- Os arquivos foram abertos para observar como se apresentam, como estão organizados e se apresentam erros ou outros problemas.
+- Os Arquivos foram importados para o Banco de Dados SQL Server Management Studio.
 
 ## Processando, Limpando e Transformando os Dados:
-- Query para criar uma coluna calculada de tempo de utilização das bicicletas
-- Utilizado o SQL Server Management Studio para unir todas as tabelas e criar um único Dataset através dessa [**query**](Query_Union_ALL)
+- Foi criada uma coluna calculada de diferença de tempo de saída e de chegada em cada arquivo .csv para verificar valores inconsistentes com essa query
+- Os arquivos .csv importadas para o SQL Server foram unidas em uma única tabela através dessa [**query**](Query_Union_ALL)
 - O número total de registros(linhas) a serem preparadas para análise é de 5.479.096
-- [**Query**](Query_Cleaning_Data) para retirar valores nulos, tempo de duração negativo ou zerado e id's duplicados
+- Para retirar valores nulos, tempo de duração negativo ou zerado e id's duplicados foi utilizada essa [**Query**](Query_Cleaning_Data) 
 - Total de registros a serem analizadas após o tratamento dos dados ficou em 4.491.263 (81,97% dos registros totais)
 
 ## Visualização de Dados:
