@@ -1,5 +1,5 @@
 # Trip_data
-## Projeto: 
+## Projeto:
 Google Data Analytics - Case Study
 
 ## Cenário: 
@@ -29,25 +29,71 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 ## Visualização de Dados:
 O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), foi importado para o Microsoft PowerBi, com a intenção de desenvolver os gráficos e realizar as análises.
 
-### Total de Registros por Tipo de Usuário:
+<p>  <br>
+  </p>
+  
+>### Quantidade Total de Registros:
+
 ![**imagem**](Qtd_Registros.png)
 
-#### Observações
 
-### Quantidade de Eventos por Tipo de Bicicleta:
+#### Observações
++ 55,10% dos registros são de Usuários Membros
++ 44,9% dos registros são dos Usuários Casuais
+
+<p>  <br>
+  </p>
+ 
+>### Quantidade de Eventos por Tipo de Bicicleta:
+
 ![**imagem**](Qtd_Registros_Tipo_Bike.png)
-#### Observações
 
-### Tempo de Utilização (Duração) Por Dia da Semana e Por Tipo de Usuário
+
+#### Observações
+- 70,96% dos registros são de uso da Classic Bike, Sendo que desde percentual: 
+   - 43,22% utilizado por Usuários Membros
+   - 27,74% Utilizado por Usuários Casuais
+
+<p>  <br>
+  </p>
+ 
+>### Tempo Médio de Utilização (Duração) Por Dia da Semana:
+
 ![**imagem**](Media_Tempo_Dia_Semana.png)
 ![**imagem**](Media_Tempo_Dia_Semana_Tipo_Bike.png)
-#### Observações
 
-### Quantidade de Eventos Por dia da Semana e Por Tipo de Usuário
+
+#### Observações
+- Usuários Membros: O tempo médio de utilização tem **menor variação** na semana e **menor duração**
+   - Normalmente os Usuários Membros utilizam as bikes com a finalidade de deslocamento para o trabalho
+- Usuários Casuais: O tempo médio de utilização tem **maior variação** na semana e **maior duração**
+   - O perfil do Usuário Casual é de utilizar as bikes para lazer, o que vem de encontro com as informações do gráfico
+
+<p>  <br>
+  </p>
+ 
+>### Tendência de Utilização Durante A Semana:
+
 ![**imagem**](Qtd_Registros_Dia_Semana.png)
-#### Observações
 
-### Quantidade de Eventos Por dia da Semana e Por Tipo de Usuário
+
+#### Observações
+- Podemos observar que aos finais de semana, a quantidade de registros aumenta devido a maior participação dos Usuários Casuais
+- Durante os dias úteis da semana, a participação dos Usuários Casuais cai consideravelmente
+- A média de utilização dos Usuários Membros se mantém durante toda a semana
+
+<p>  <br>
+  </p>
+ 
+>### Quantidade de Eventos Por dia da Semana e Por Tipo de Usuário
+
 ![**imagem**](Qtd_Registros_Mes.png)
+
+
 #### Observações
 
+<p>  <br>
+  </p>
+  
+>### Conclusões e Recomendações
+ 
