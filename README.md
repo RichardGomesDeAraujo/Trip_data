@@ -22,11 +22,11 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 ## Processando, Limpando e Transformando os Dados:
 - Foi criada uma coluna calculada de diferença de tempo de saída e de chegada em cada arquivo .csv para verificar valores inconsistentes com essa [**query**](Query_Add_Column)
 - Os arquivos .csv importadas para o SQL Server foram unidas em uma única tabela através dessa [**query**](Query_Union_ALL)
-- O número total de registros(linhas) a serem preparadas para análise é de 5.479.096
+- O número total de registros (linhas) a serem preparadas para análise é de 5.479.096
 - Para retirar valores nulos, tempo de duração negativo ou zerado e id's duplicados foi utilizada essa [**Query**](Query_Cleaning_Data) 
 - Total de registros a serem analizadas após o tratamento dos dados ficou em 4.491.263 (81,97% dos registros totais)
 
-## Visualização de Dados:
+## Análise e Visualização de Dados:
 O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), foi importado para o Microsoft PowerBi, com a intenção de desenvolver os gráficos e realizar as análises.
 
 <p>  <br>
@@ -65,10 +65,8 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
 
 #### Observações
 - Usuários Membros: O tempo médio de utilização tem **menor variação** na semana e **menor duração**
-   - Normalmente os Usuários Membros utilizam as bikes com a finalidade de deslocamento para o trabalho
 - Usuários Casuais: O tempo médio de utilização tem **maior variação** na semana e **maior duração**
-   - O perfil do Usuário Casual é de utilizar as bikes para lazer, o que vem de encontro com as informações do gráfico
-
+ 
 <p>  <br>
   </p>
  
@@ -85,15 +83,31 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
 <p>  <br>
   </p>
  
->### Quantidade de Eventos Por dia da Semana e Por Tipo de Usuário
+>### Quantidade de Eventos Por Mês do Ano
 
 ![**imagem**](Qtd_Registros_Mes.png)
 
 
 #### Observações
-
+- O gráfico demonstra uma maior procura dos Usuários Casuais nos meses entre abril e setembro (acima de 40% dos registros)
+- O Usuários Membros tem uma participação inversamente proporcional, sendo mais relevantes nos meses iniciais e finais do ano (acima de 60% dos registros)
 <p>  <br>
   </p>
   
->### Conclusões e Recomendações
- 
+## Conclusões e Recomendações
+- Observando como os Usuários Membros utilizam as bikes, podemos concluir que o uso tem como finalidade principal o deslocamento para trabalho
+- Observando o utilização por parte dos Usuários Casuais, podemos concluir que a principal finalidade de uso das bikes é para o lazer
+- Como a média de utilização cai nos dias úteis por parte dos Usuários Casuais, seria interessante criar condições especiais para a utilização nesse período
+- Nos Meses do meio do ano, há uma procura maior dos Usuários Casuais, o que sugere que talvez, criar condições especiais nos meses de início e fim de ano seja também uma possibilidade a ser avaliada pela área de marketing
+
+>### Tecnologias Utilizadas
+- Excel para visualizar os arquivos .csv
+- SSMS (SQL Server Management Studio) para importar os arquivos .csv e unir em um banco de dados único
+- Linguagem SQL para extrair, transformar e carregar os dados através de Views e outros comandas do SQL Server
+- Microsoft PowerBI para importar os dados do SQL Server e criar os gráficos necessários para as análises:
+    - Criando novas colunas para ajudar as análises por dia e por mês
+    - Criando medidas com fórmula DAX como VARIÁVEIS (VAR), CALCULATE, DIVIDE, entre outras
+
+## Autor do Projeto
+Projeto realizado por Richard Gomes de Araújo em Dezembro/2021
+[Linkedin](https://www.linkedin.com/in/richardaraujoanalistadedados/)
