@@ -46,3 +46,8 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
 ### Quantidade de Eventos Por dia da Semana e Por Tipo de Usuário
 ![**imagem**](Qtd_Registros_Dia_Semana.png)
 #### Observações
+
+### Quantidade de Eventos Por dia da Semana e Por Tipo de Usuário
+![**imagem**](Qtd_Registros_Mes.png)
+#### Observações
+
