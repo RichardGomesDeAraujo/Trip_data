@@ -20,7 +20,7 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 - Os Arquivos foram importados para o Banco de Dados SQL Server Management Studio.
 
 ## Processando, Limpando e Transformando os Dados:
-- Foi criada uma coluna calculada de diferença de tempo de saída e de chegada em cada arquivo .csv para verificar valores inconsistentes com essa query
+- Foi criada uma coluna calculada de diferença de tempo de saída e de chegada em cada arquivo .csv para verificar valores inconsistentes com essa [**query**](Query_Add_Column)
 - Os arquivos .csv importadas para o SQL Server foram unidas em uma única tabela através dessa [**query**](Query_Union_ALL)
 - O número total de registros(linhas) a serem preparadas para análise é de 5.479.096
 - Para retirar valores nulos, tempo de duração negativo ou zerado e id's duplicados foi utilizada essa [**Query**](Query_Cleaning_Data) 
