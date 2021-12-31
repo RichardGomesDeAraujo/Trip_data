@@ -27,9 +27,9 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 - Total de registros a serem analizadas após o tratamento dos dados ficou em 4.491.263 (81,97% dos registros totais)
 
 ## Visualização de Dados:
-O Banco de Dados Final, obtido através do SSMS(SQL Server Management Studio), ficou com um total de   linhas, e foi importado para o Microsoft PowerBi, com a intenção de desenvolver os gráficos e realizar as análises.
+O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), foi importado para o Microsoft PowerBi, com a intenção de desenvolver os gráficos e realizar as análises.
 
-### Número Total de Usuários:
+### Total de Registros por Tipo de Usuário:
 
 #### Observações
 
