@@ -39,7 +39,8 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
 #### Observações
 
 ### Tempo de Utilização (Duração) Por Dia da Semana e Por Tipo de Usuário
-
+![**imagem**](Media_Tempo_Dia_Semana.png)
+![**imagem**](Media_Tempo_Dia_Semana_Tipo_Bike.png)
 #### Observações
 
 ### Quantidade de Eventos Por dia da Semana e Por Tipo de Usuário
