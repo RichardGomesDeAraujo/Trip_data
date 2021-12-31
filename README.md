@@ -30,7 +30,7 @@ Verificar as diferenças de uso entre os Usuários Casuais e os Usuários Membro
 O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), foi importado para o Microsoft PowerBi, com a intenção de desenvolver os gráficos e realizar as análises.
 
 ### Total de Registros por Tipo de Usuário:
-
+[**imagem**](C:\Users\Usuario\Desktop\Courses\Google\Capstone\Case Study 2\csv\first)
 #### Observações
 
 ### Quantidade de Eventos por Tipo de Bicicleta:
