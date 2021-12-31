@@ -100,6 +100,16 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
 - Como a média de utilização cai nos dias úteis por parte dos Usuários Casuais, seria interessante criar condições especiais para a utilização nesse período
 - Nos Meses do meio do ano, há uma procura maior dos Usuários Casuais, o que sugere que talvez, criar condições especiais nos meses de início e fim de ano seja também uma possibilidade a ser avaliada pela área de marketing
 
+<p>  <br>
+  </p>
+  
+## Autor do Projeto
+Projeto realizado por Richard Gomes de Araújo em Dezembro/2021
+- [**Linkedin**](https://www.linkedin.com/in/richardaraujoanalistadedados/)
+
+<p>  <br>
+  </p>
+  
 >### Tecnologias Utilizadas
 - Excel para visualizar os arquivos .csv
 - SSMS (SQL Server Management Studio) para importar os arquivos .csv e unir em um banco de dados único
@@ -107,7 +117,3 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
 - Microsoft PowerBI para importar os dados do SQL Server e criar os gráficos necessários para as análises:
     - Criando novas colunas para ajudar as análises por dia e por mês
     - Criando medidas com fórmula DAX como VARIÁVEIS (VAR), CALCULATE, DIVIDE, entre outras
-
-## Autor do Projeto
-Projeto realizado por Richard Gomes de Araújo em Dezembro/2021
-[Linkedin](https://www.linkedin.com/in/richardaraujoanalistadedados/)
