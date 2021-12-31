@@ -34,7 +34,7 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
   
 >### Quantidade Total de Registros:
 
-![**imagem**](Qtd_Registros.png)
+![**imagem**](Registros.png)
 
 
 #### Observações
@@ -46,7 +46,7 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
  
 >### Quantidade de Eventos por Tipo de Bicicleta:
 
-![**imagem**](Qtd_Registros_Tipo_Bike.png)
+![**imagem**](Registros_Tipo_Bike.png)
 
 
 #### Observações
@@ -59,8 +59,7 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
  
 >### Tempo Médio de Utilização (Duração) Por Dia da Semana:
 
-![**imagem**](Media_Tempo_Dia_Semana.png)
-![**imagem**](Media_Tempo_Dia_Semana_Tipo_Bike.png)
+![**imagem**](Media_Dia_Semana.png)
 
 
 #### Observações
@@ -72,7 +71,7 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
  
 >### Tendência de Utilização Durante A Semana:
 
-![**imagem**](Qtd_Registros_Dia_Semana.png)
+![**imagem**](Registros_Dia_Semana.png)
 
 
 #### Observações
@@ -85,7 +84,7 @@ O Banco de Dados Final, obtido através do SSMS (SQL Server Management Studio), 
  
 >### Quantidade de Eventos Por Mês do Ano
 
-![**imagem**](Qtd_Registros_Mes.png)
+![**imagem**](Registros_Mes.png)
 
 
 #### Observações
