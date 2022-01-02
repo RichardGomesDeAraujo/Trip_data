@@ -116,3 +116,6 @@ Projeto realizado por Richard Gomes de Araújo em Dezembro/2021
 - Microsoft PowerBI para importar os dados do SQL Server e criar os gráficos necessários para as análises:
     - Criando novas colunas para ajudar as análises por dia e por mês
     - Criando medidas com fórmula DAX como VARIÁVEIS (VAR), CALCULATE, DIVIDE, entre outras
+
+
+
